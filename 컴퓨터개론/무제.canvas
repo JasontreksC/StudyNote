@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"1a64480260ea4dda","x":-50,"y":150,"width":510,"height":50,"type":"text","text":"System Bus"},
+		{"id":"e69933bcd7effc2c","x":260,"y":-60,"width":150,"height":150,"type":"text","text":"Aplllication\n\nMemory\n\nOS"},
+		{"id":"6310ae62a1765a28","x":20,"y":30,"width":120,"height":60,"type":"text","text":"CPU"},
+		{"id":"b120117f2f50cd74","x":80,"y":280,"width":250,"height":60,"type":"text","text":"Input Output"}
+	],
+	"edges":[
+		{"id":"c15c5d4d0692f10d","fromNode":"6310ae62a1765a28","fromSide":"bottom","toNode":"1a64480260ea4dda","toSide":"top"},
+		{"id":"7979d4b77d764f80","fromNode":"e69933bcd7effc2c","fromSide":"bottom","toNode":"1a64480260ea4dda","toSide":"top"},
+		{"id":"ef2b3d78dc9af14e","fromNode":"1a64480260ea4dda","fromSide":"top","toNode":"e69933bcd7effc2c","toSide":"bottom"},
+		{"id":"c2ecef59b0c7963f","fromNode":"1a64480260ea4dda","fromSide":"top","toNode":"6310ae62a1765a28","toSide":"bottom"},
+		{"id":"cf21deb1d194feda","fromNode":"1a64480260ea4dda","fromSide":"bottom","toNode":"b120117f2f50cd74","toSide":"top"}
+	]
+}
