@@ -8,40 +8,40 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad406990c6fee68a",
+            "id": "2bbf5da8dbc26fe7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C, C++/C언어 문법/4. 논리 제어문.md",
+                "file": "C, C++/C언어 문법/3. 기본 입출력.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "4. 논리 제어문"
+              "title": "3. 기본 입출력"
             },
-            "group": "6eef23628acd3def"
+            "group": "ae9a251a07838516"
           }
         ]
       },
       {
-        "id": "3f87d1f2a4796461",
+        "id": "0d65fc9a71e773b6",
         "type": "tabs",
         "children": [
           {
-            "id": "18c6c2ae1f1392cd",
+            "id": "3dadcefabeb44411",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C, C++/C언어 문법/4. 논리 제어문.md",
+                "file": "C, C++/C언어 문법/3. 기본 입출력.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "4. 논리 제어문"
+              "title": "3. 기본 입출력"
             },
-            "group": "6eef23628acd3def"
+            "group": "ae9a251a07838516"
           }
         ]
       }
@@ -191,16 +191,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ad406990c6fee68a",
+  "active": "3dadcefabeb44411",
   "lastOpenFiles": [
+    "기타/미디어 파일/Pasted image 20250330122545.png",
     "C, C++/C언어 문법/3. 기본 입출력.md",
     "C, C++/C언어 문법/2. 전처리 명령.md",
+    "C, C++/C언어 문법/4. 논리 제어문.md",
+    "기타/미디어 파일/Pasted image 20250330122411.png",
+    "C, C++/기초 지식/2. 자료형과 변수.md",
+    "기타/미디어 파일/Pasted image 20250330113701.png",
+    "기타/미디어 파일/Pasted image 20250330113420.png",
+    "2025-03-30.md",
+    "기타/템플릿/3X3표.md",
     "C, C++/C언어 문법/1. 연산자와 함수.md",
     "C, C++/기초 지식/3. 메모리와 포인터.md",
-    "C, C++/기초 지식/2. 자료형과 변수.md",
     "C, C++/기초 지식/1. 컴퓨터 작동 방식.md",
     "기타/템플릿/강조.md",
-    "C, C++/C언어 문법/4. 논리 제어문.md",
     "기타/템플릿/C code base.md",
     "기타/미디어 파일/Pasted image 20250329182139.png",
     "기타/템플릿/파란색.md",
@@ -225,17 +231,13 @@
     "C, C++/1. C언어 문법.md",
     "C, C++/C언어 문법",
     "C, C++/기초 지식",
-    "웹 프로그래밍/HTML+CSS+Javascript/Javascript/자바스크립트 기초.md",
     "웹 프로그래밍/HTML+CSS+Javascript/Javascript",
-    "1학기/2. 전산학개론.md",
-    "컴퓨터 그래픽/1, 포토샵.md",
     "컴퓨터 그래픽",
     "웹 프로그래밍/HTML+CSS+Javascript",
     "웹 프로그래밍",
     "기타/미디어 파일/20250317220339.png",
     "기타/미디어 파일/20250317220323.png",
     "기타/미디어 파일/20250317213549.png",
-    "사진파일/Pasted image 20250317204940.png",
-    "기타/미디어 파일/20250317204940.png"
+    "사진파일/Pasted image 20250317204940.png"
   ]
 }
