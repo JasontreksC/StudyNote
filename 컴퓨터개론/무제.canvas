@@ -1,15 +1,43 @@
 {
 	"nodes":[
-		{"id":"1a64480260ea4dda","x":-50,"y":150,"width":510,"height":50,"type":"text","text":"System Bus"},
-		{"id":"e69933bcd7effc2c","x":260,"y":-60,"width":150,"height":150,"type":"text","text":"Aplllication\n\nMemory\n\nOS"},
-		{"id":"6310ae62a1765a28","x":20,"y":30,"width":120,"height":60,"type":"text","text":"CPU"},
-		{"id":"b120117f2f50cd74","x":80,"y":280,"width":250,"height":60,"type":"text","text":"Input Output"}
+		{"id":"acce1a4af0fffbfe","type":"group","x":-420,"y":660,"width":290,"height":220,"label":"CPU"},
+		{"id":"b563a07ff23fffa0","x":5,"y":938,"width":290,"height":220,"type":"group","label":"CPU"},
+		{"id":"cbd626a1e40b1b13","type":"text","text":"# Appliscation","x":279,"y":650,"width":250,"height":50},
+		{"id":"cf55af6f69ac86c3","type":"text","text":"# Register","x":-400,"y":794,"width":250,"height":60},
+		{"id":"c56b8a17186cbf2d","type":"text","text":"# ALU","x":-400,"y":674,"width":250,"height":60},
+		{"id":"8b35f53afe8ee112","type":"text","text":"# CU","x":-400,"y":734,"width":250,"height":60},
+		{"id":"49dbef8ab9f0fddb","type":"text","text":"# Momory","x":-105,"y":661,"width":250,"height":60},
+		{"id":"7e9fb3270bdef7f0","type":"text","text":"# Hardware","x":-260,"y":500,"width":250,"height":60},
+		{"id":"e06e8728a52ba7b2","type":"text","text":"# 컴퓨터","x":85,"y":500,"width":250,"height":60},
+		{"id":"c1ffb82531f90715","type":"text","text":"# System Softeare(OS)","x":589,"y":650,"width":242,"height":83},
+		{"id":"24c766c4842135b6","type":"text","text":"# Software","x":460,"y":493,"width":250,"height":74},
+		{"id":"1a64480260ea4dda","type":"text","text":"System Bus","x":-50,"y":150,"width":510,"height":50},
+		{"id":"b120117f2f50cd74","type":"text","text":"Input Output","x":80,"y":280,"width":250,"height":60},
+		{"id":"e69933bcd7effc2c","type":"text","text":"Aplllication\n\nMemory\n\nOS","x":260,"y":-60,"width":150,"height":150},
+		{"id":"6310ae62a1765a28","type":"text","text":"CPU","x":20,"y":30,"width":120,"height":60},
+		{"id":"8a329447bd6f5264","x":-780,"y":673,"width":250,"height":60,"type":"text","text":"산술 연산, 논리 연산"},
+		{"id":"f834ce828dd5ce12","x":-760,"y":1060,"width":570,"height":160,"type":"text","text":"# 워드\n## 컴퓨터가 한 번에 작업할 수 있는 데이터의 단위\n## 64비트(최근), 32비트(옛날)"},
+		{"id":"a6c0890a7c02098b","type":"text","text":"# Register","x":25,"y":1078,"width":250,"height":60},
+		{"id":"9c404ccc5210bc3e","type":"text","text":"# ALU","x":25,"y":958,"width":250,"height":60},
+		{"id":"78c3e4141fc36bfc","type":"text","text":"# CU","x":25,"y":1018,"width":250,"height":60},
+		{"id":"ee36744f904d6065","type":"text","text":"# Momory","x":706,"y":1018,"width":250,"height":60},
+		{"id":"c87a55ee2bdc2070","x":154,"y":1320,"width":526,"height":380,"type":"text","text":"# X = X + 1\n\n1. CPU->Memory | 주소 전달:  Address Bus\n2. CPU->Memory | Read명령 전달: Control Bus\n3. Memory->CPU | 값 전달: Data Bus\n4. 3번에서 전달된 값이 레지스터에 저장\n5. CPU의 ALU가 연산 수행\n6. CPU->Memory | 주소 전달: Address Bus\n7. CPU->Memory | 명령어 전달: Control Bus\n8. CPU->Memory | 값 전달: Data Bus\n9. 8번에서 전달된 값이 메모리에 저장\n"}
 	],
 	"edges":[
 		{"id":"c15c5d4d0692f10d","fromNode":"6310ae62a1765a28","fromSide":"bottom","toNode":"1a64480260ea4dda","toSide":"top"},
 		{"id":"7979d4b77d764f80","fromNode":"e69933bcd7effc2c","fromSide":"bottom","toNode":"1a64480260ea4dda","toSide":"top"},
 		{"id":"ef2b3d78dc9af14e","fromNode":"1a64480260ea4dda","fromSide":"top","toNode":"e69933bcd7effc2c","toSide":"bottom"},
 		{"id":"c2ecef59b0c7963f","fromNode":"1a64480260ea4dda","fromSide":"top","toNode":"6310ae62a1765a28","toSide":"bottom"},
-		{"id":"cf21deb1d194feda","fromNode":"1a64480260ea4dda","fromSide":"bottom","toNode":"b120117f2f50cd74","toSide":"top"}
+		{"id":"cf21deb1d194feda","fromNode":"1a64480260ea4dda","fromSide":"bottom","toNode":"b120117f2f50cd74","toSide":"top"},
+		{"id":"ee66d67eef51790f","fromNode":"e06e8728a52ba7b2","fromSide":"left","toNode":"7e9fb3270bdef7f0","toSide":"right"},
+		{"id":"889b4ee119a6f07b","fromNode":"e06e8728a52ba7b2","fromSide":"right","toNode":"24c766c4842135b6","toSide":"left"},
+		{"id":"38f8807ac79af955","fromNode":"7e9fb3270bdef7f0","fromSide":"bottom","toNode":"49dbef8ab9f0fddb","toSide":"top"},
+		{"id":"2db9a673216d4896","fromNode":"24c766c4842135b6","fromSide":"bottom","toNode":"cbd626a1e40b1b13","toSide":"top"},
+		{"id":"feb32f4bb38574fe","fromNode":"24c766c4842135b6","fromSide":"bottom","toNode":"c1ffb82531f90715","toSide":"top"},
+		{"id":"edc26d3b68f6f205","fromNode":"7e9fb3270bdef7f0","fromSide":"bottom","toNode":"c56b8a17186cbf2d","toSide":"top"},
+		{"id":"4bbac22b55b9d306","fromNode":"c56b8a17186cbf2d","fromSide":"left","toNode":"8a329447bd6f5264","toSide":"right"},
+		{"id":"f9423475204cc94e","fromNode":"b563a07ff23fffa0","fromSide":"bottom","toNode":"ee36744f904d6065","toSide":"bottom","label":"Address Bus"},
+		{"id":"42034410901dcfbd","fromNode":"b563a07ff23fffa0","fromSide":"top","toNode":"ee36744f904d6065","toSide":"top","label":"Control Bus"},
+		{"id":"570239d9f3cf20bf","fromNode":"b563a07ff23fffa0","fromSide":"right","toNode":"ee36744f904d6065","toSide":"left","label":"Data Bus"}
 	]
 }
