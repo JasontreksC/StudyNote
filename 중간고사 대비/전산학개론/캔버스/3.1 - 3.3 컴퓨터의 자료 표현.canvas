@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"c965d2f7c541651c","type":"text","text":"# 10진수\n- 기수는 10\n- 맨 오른쪽부터 1, 10, 100...을 각 자릿수와 곱하여 더함","x":-340,"y":-160,"width":310,"height":180},
+		{"id":"a9b9c130d860e507","type":"text","text":"# 2진수\n- 기수는 2\n- 맨 오른쪽부터 1, 2, 4, 8..을 각 자릿수와 곱하여 더함","x":20,"y":-160,"width":270,"height":180,"color":"1"},
+		{"id":"b6c7947384917801","type":"text","text":"# 16진수\n- 기수는 16\n- 0부터 9, A부터 E","x":340,"y":-160,"width":250,"height":180},
+		{"id":"f816db84fca71c7d","type":"text","text":"# 컴퓨터는 전기가 흐르거나(On) 흐르지 않는(Off) 두 가지 전기 신호만을 표현 가능 -> 모든 정보를 이진수로 표현함","x":-362,"y":120,"width":1034,"height":120},
+		{"id":"fabb073424e42b20","type":"text","text":"# 비트\n- 컴퓨터 메모리의 저장 단위\n- 전기가 흐르면 1 안흐르면 0 -> 2진수로 표현이 가능","x":-113,"y":320,"width":536,"height":140},
+		{"id":"37a281badabf7417","type":"text","text":"# 바이트\n- 정보의 용량 단위\n- 1024바이트는 1KB, 1024KB는 1MB","x":30,"y":580,"width":250,"height":176},
+		{"id":"95e860f3731756ed","x":-380,"y":-560,"width":510,"height":184,"type":"text","text":"# 음수 표현으로 2의 보수법 사용\n- 비트를 반전시킨 뒤 1 더하면 2의 보수\n- 최상위 비트는 부호 비트가 됨, 1이면 음수\n- 부호 없는 정수는 부호비트 없이 양수만 표현, 양수범위가 더 큼"},
+		{"id":"9a22b619bf3e5049","x":155,"y":-560,"width":570,"height":184,"type":"text","text":"# 부동소수점 방식으로 실수 표현\n- 12.34를 1.234 \\* 10으로 정규화, 234를 가수 10^n 에서 n을 지수라고 함\n- 최상위 비트는 부호\n- 단정도에서는 지수에 127을 더하여 편향지수로 표현"}
+	],
+	"edges":[
+		{"id":"7199cb5af5cf2138","fromNode":"a9b9c130d860e507","fromSide":"bottom","toNode":"f816db84fca71c7d","toSide":"top"},
+		{"id":"6ae7c6a080e85350","fromNode":"f816db84fca71c7d","fromSide":"bottom","toNode":"fabb073424e42b20","toSide":"top"},
+		{"id":"cda3efd83b89ab2d","fromNode":"fabb073424e42b20","fromSide":"bottom","toNode":"37a281badabf7417","toSide":"top","label":"8개 모이면"},
+		{"id":"8a91f8ff12797d35","fromNode":"a9b9c130d860e507","fromSide":"top","toNode":"95e860f3731756ed","toSide":"bottom"},
+		{"id":"22eee30814b9c052","fromNode":"a9b9c130d860e507","fromSide":"top","toNode":"9a22b619bf3e5049","toSide":"bottom"}
+	]
+}

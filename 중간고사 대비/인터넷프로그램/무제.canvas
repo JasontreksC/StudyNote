@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"e8c436d41e05ff53","x":-580,"y":-255,"width":250,"height":90,"type":"text","text":"# 팀 버너스리\n"},
+		{"id":"354e603b0f419f0e","x":-172,"y":-300,"width":320,"height":180,"type":"text","text":"# 웹\n- 인터넷으로 구축된 서비스 중 하나\n- 거미줄처럼 연결된 인터넷에서 서로 정보를 교환하는 서비스"},
+		{"id":"f8881d3cd21f5ef6","x":-299,"y":-540,"width":575,"height":140,"type":"text","text":"# 인터넷\n- 전 세계의 컴퓨터가 IP주소로 연결할 수 있는 기본 통신망"},
+		{"id":"2110ac2ba75275f2","type":"text","text":"# 웹 브라우저\n- 최초의 브라우저 Mosaic 1993\n- 서버에 요청을 전송하고 처리 결과를 받을 수 있게 함\n- HTML로 내용을 구성","x":-178,"y":-40,"width":332,"height":200},
+		{"id":"692bc86ddf0afef2","type":"text","text":"# HTML5\n- 표준화된 시멘틱 태그\n- 플러그인 없이 미디어 재생, 기기의 제약 X\n- JS로 웹 애플리케이션을 만들 수 있음","x":-201,"y":240,"width":378,"height":180},
+		{"id":"21b47461b8ff595c","type":"text","text":"# CSS3\n- 스타일 시트로 색, UI, 글꼴을 정의","x":340,"y":180,"width":378,"height":120},
+		{"id":"28842483fe0ac755","type":"text","text":"# Java Script\n- 사용자 입력을 처리\n- 웹 애플리케이션 작성","x":340,"y":370,"width":378,"height":130}
+	],
+	"edges":[
+		{"id":"ee4861a5cb98dfaa","fromNode":"f8881d3cd21f5ef6","fromSide":"bottom","toNode":"354e603b0f419f0e","toSide":"top"},
+		{"id":"a7e81214460cf26a","fromNode":"e8c436d41e05ff53","fromSide":"right","toNode":"354e603b0f419f0e","toSide":"left","label":"개발"},
+		{"id":"a0827bcd72cf2bac","fromNode":"354e603b0f419f0e","fromSide":"bottom","toNode":"2110ac2ba75275f2","toSide":"top"},
+		{"id":"6e0382d68df5e970","fromNode":"2110ac2ba75275f2","fromSide":"bottom","toNode":"692bc86ddf0afef2","toSide":"top","label":"발전을 거듭"},
+		{"id":"dde69e155c691eb9","fromNode":"692bc86ddf0afef2","fromSide":"right","toNode":"21b47461b8ff595c","toSide":"left","label":"문서의 모양"},
+		{"id":"b92f1aa365c5167b","fromNode":"692bc86ddf0afef2","fromSide":"right","toNode":"28842483fe0ac755","toSide":"left","label":"동작 구현"}
+	]
+}

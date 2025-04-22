@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"54bf9cb892c5b5f5","type":"text","text":"# 앨런 튜링\n계산기를 지능을 가진 기계로 해석해 인공지능 시대의 문을 열음","x":-180,"y":-220,"width":320,"height":120},
+		{"id":"83ed7e20765dc447","type":"text","text":"지식 기반 전문가 시스템\n머신 러닝 연구","x":-134,"y":-60,"width":229,"height":60},
+		{"id":"43d58e1beafd652a","type":"text","text":"2010 딥러닝 연구\n4차 산업혁명\nGPU에 의한 고성능 컴퓨터","x":-155,"y":40,"width":270,"height":103},
+		{"id":"4450d8cb1189f053","type":"text","text":"# 인공지능의 확산\n알파고의 등장","x":-160,"y":180,"width":280,"height":100},
+		{"id":"6acb9c8c0c86ec10","type":"text","text":"# 인공지능\n인간의 뇌와 같이 높은 지능과 생각하는 방식을 가진 컴퓨터 시스템","x":400,"y":125,"width":260,"height":170,"color":"6"},
+		{"id":"767fc9ec372241e2","type":"text","text":"# GPU\n그래픽 연산 처리장치\n병렬 처리에 특화","x":290,"y":-210,"width":220,"height":130},
+		{"id":"337e397c02f586e5","type":"text","text":"# TPU\n 구글에서 개발한 GPU보다 뛰어난 병렬 연산처리 장치","x":580,"y":-210,"width":220,"height":150},
+		{"id":"562dfb17f685630b","type":"text","text":"자율주행","x":780,"y":150,"width":250,"height":60},
+		{"id":"7296728616f3fc9f","type":"text","text":"화상인식: 사진 영상 인식","x":780,"y":233,"width":250,"height":60},
+		{"id":"403ec2b8f97a2f0d","type":"text","text":"시각인식: 물체 얼굴 인식","x":780,"y":314,"width":250,"height":60},
+		{"id":"f6a45720594b2668","type":"text","text":"자연어 처리","x":780,"y":65,"width":250,"height":60},
+		{"id":"d1a680a4e2a9ce9d","x":1160,"y":-96,"width":250,"height":60,"type":"text","text":"음성인식 Speach To Text"},
+		{"id":"b7ba087a04492770","x":1160,"y":-16,"width":250,"height":60,"type":"text","text":"음성합성 Text To Speach"},
+		{"id":"cf203c5301f24332","x":1160,"y":65,"width":250,"height":60,"type":"text","text":"챗봇"},
+		{"id":"53149e1c2c01cf93","x":1160,"y":150,"width":250,"height":60,"type":"text","text":"여러 기술로 주변 환경 인지, 주행경로 제어"},
+		{"id":"11684266284b8f20","x":1160,"y":233,"width":250,"height":97,"type":"text","text":"수준 0~2: 운전자 책임\n수준 3: 시스템 책임\n수준 5: 운전자 없이 주행"},
+		{"id":"fe1805bdd55eb381","x":40,"y":520,"width":250,"height":120,"type":"text","text":"# 전기차\n전기 배터리와 소프트웨어, 센서 기술의 결합"},
+		{"id":"864396309bfef677","x":40,"y":660,"width":250,"height":160,"type":"text","text":"# 하이브리드 차\n내연기관 + 전기 배터리\n순수 전기차가 내연기관을 완전히 대체할떄까지 사용"},
+		{"id":"e112fa8f2c9eb072","x":400,"y":570,"width":440,"height":180,"type":"text","text":"# 미래의 자동차\n친환경 전기차와 수소차, 정보통신기술(ICT)과 인공지능에 기반한 자율주행차를 포괄\n전기/수소차, 자율주행차, 이동서비스 산업 주도\n교통사고 감소, 미세먼지 감소 전망"}
+	],
+	"edges":[
+		{"id":"70c319de1201e348","fromNode":"54bf9cb892c5b5f5","fromSide":"bottom","toNode":"83ed7e20765dc447","toSide":"top"},
+		{"id":"adb14332a6bf3a21","fromNode":"83ed7e20765dc447","fromSide":"bottom","toNode":"43d58e1beafd652a","toSide":"top"},
+		{"id":"4701cdf32b349b79","fromNode":"43d58e1beafd652a","fromSide":"bottom","toNode":"4450d8cb1189f053","toSide":"top"},
+		{"id":"7e7e5f2ba40dad18","fromNode":"6acb9c8c0c86ec10","fromSide":"right","toNode":"f6a45720594b2668","toSide":"left"},
+		{"id":"570ddfd82b434a9e","fromNode":"6acb9c8c0c86ec10","fromSide":"right","toNode":"562dfb17f685630b","toSide":"left"},
+		{"id":"d7b685b69aece251","fromNode":"6acb9c8c0c86ec10","fromSide":"right","toNode":"7296728616f3fc9f","toSide":"left"},
+		{"id":"1194492495127c55","fromNode":"6acb9c8c0c86ec10","fromSide":"right","toNode":"403ec2b8f97a2f0d","toSide":"left"},
+		{"id":"8a9c4a9b96372172","fromNode":"767fc9ec372241e2","fromSide":"bottom","toNode":"6acb9c8c0c86ec10","toSide":"top"},
+		{"id":"731481f602273f26","fromNode":"337e397c02f586e5","fromSide":"bottom","toNode":"6acb9c8c0c86ec10","toSide":"top"},
+		{"id":"0a54749b42344ae7","fromNode":"f6a45720594b2668","fromSide":"right","toNode":"d1a680a4e2a9ce9d","toSide":"left"},
+		{"id":"9719029e8b698ebd","fromNode":"f6a45720594b2668","fromSide":"right","toNode":"b7ba087a04492770","toSide":"left"},
+		{"id":"e887f873fdf088ee","fromNode":"f6a45720594b2668","fromSide":"right","toNode":"cf203c5301f24332","toSide":"left"},
+		{"id":"7c6ed00b8486f641","fromNode":"562dfb17f685630b","fromSide":"right","toNode":"53149e1c2c01cf93","toSide":"left"},
+		{"id":"ac9f368c0187cd4f","fromNode":"562dfb17f685630b","fromSide":"right","toNode":"11684266284b8f20","toSide":"left"},
+		{"id":"3ca9dbc4dc00ccd1","fromNode":"fe1805bdd55eb381","fromSide":"right","toNode":"e112fa8f2c9eb072","toSide":"left"},
+		{"id":"cd4e74309a29bc40","fromNode":"864396309bfef677","fromSide":"right","toNode":"e112fa8f2c9eb072","toSide":"left"}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"c118ab29fa20e856","x":-180,"y":-160,"width":260,"height":60,"type":"text","text":"# 컴퓨터"},
+		{"id":"fe25afc0a737ba4e","type":"text","text":"# 메인프레임->미니컴퓨터\n- 다수의 사용자가 함꼐 사용","x":320,"y":-435,"width":460,"height":170},
+		{"id":"52f41665edd65c2e","type":"text","text":"# 워크스테이션->마이크로컴퓨터\n- 개인이 사용하는 보급용 컴퓨터","x":320,"y":-215,"width":460,"height":170},
+		{"id":"ba713328d79a9653","type":"text","text":"# 개발 실험용 컴퓨터\n- 라즈베리파이","x":320,"y":5,"width":460,"height":170},
+		{"id":"fa1fff7a7cfcf073","type":"text","text":"# 아두이노\n- 하드웨어와 소프트웨어 기반의 ‘오픈 소스 전자 플랫폼’","x":320,"y":225,"width":460,"height":170},
+		{"id":"0b64ebe8b3162f92","type":"text","text":"# 센서\n- 물리적 화학적 정보를 인식하는 컴퓨터","x":320,"y":445,"width":460,"height":170},
+		{"id":"1ef4a6f4e1c48add","x":320,"y":-650,"width":460,"height":170,"type":"text","text":"# 슈퍼컴퓨터\n- 초고성능, 대규모 데이터 처리"}
+	],
+	"edges":[
+		{"id":"a4907406b3e5e15f","fromNode":"c118ab29fa20e856","fromSide":"right","toNode":"1ef4a6f4e1c48add","toSide":"left"},
+		{"id":"56b9895f99abe454","fromNode":"c118ab29fa20e856","fromSide":"right","toNode":"fe25afc0a737ba4e","toSide":"left"},
+		{"id":"5e379d1f71b2112a","fromNode":"c118ab29fa20e856","fromSide":"right","toNode":"52f41665edd65c2e","toSide":"left"},
+		{"id":"ebb0f810c115eb0c","fromNode":"c118ab29fa20e856","fromSide":"right","toNode":"ba713328d79a9653","toSide":"left"},
+		{"id":"fff91c62f5494fd4","fromNode":"c118ab29fa20e856","fromSide":"right","toNode":"fa1fff7a7cfcf073","toSide":"left"},
+		{"id":"3ed674040f52232a","fromNode":"c118ab29fa20e856","fromSide":"right","toNode":"0b64ebe8b3162f92","toSide":"left"}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"d4bfd1e7f59dd3d2","type":"text","text":"# 4차 산업혁명\n2016 스위스에서 최초 언급\n모든 것이 연결된, 지능적인 사회로의 진화\n인공지능, 사물 인터넷을 중심으로 한 산업 혁명","x":-283,"y":-145,"width":380,"height":168},
+		{"id":"0da584078f851db2","type":"text","text":"# 사물 인터넷\n각종 사물에 센서와 통신 기능을 내장하여 무선 통신을 통해 인터넷에 연결","x":-460,"y":145,"width":350,"height":135},
+		{"id":"017f0e64c5729257","type":"file","file":"Pasted image 20250420233027.png","x":220,"y":-209,"width":535,"height":296},
+		{"id":"6ae32a0408bf57cf","type":"text","text":"스마트 냉장고, AI 스피커, 스마트워치 등","x":-410,"y":360,"width":250,"height":60},
+		{"id":"27362fc5f62c2c4d","type":"text","text":"# 빅데이터\n방대한 규모, 짧은 생성주기, 다양한 형태의 대규모 데이터\n수집, 저장하여 분석, 처리 -> 가리 창출","x":-53,"y":145,"width":353,"height":175}
+	],
+	"edges":[
+		{"id":"76f5a31f5ee4c885","fromNode":"d4bfd1e7f59dd3d2","fromSide":"bottom","toNode":"0da584078f851db2","toSide":"top"},
+		{"id":"39175ba96204033a","fromNode":"d4bfd1e7f59dd3d2","fromSide":"bottom","toNode":"27362fc5f62c2c4d","toSide":"top"},
+		{"id":"a0c549bce642e1c3","fromNode":"d4bfd1e7f59dd3d2","fromSide":"right","toNode":"017f0e64c5729257","toSide":"left"},
+		{"id":"ceab96f2b9e78601","fromNode":"0da584078f851db2","fromSide":"bottom","toNode":"6ae32a0408bf57cf","toSide":"top"}
+	]
+}
