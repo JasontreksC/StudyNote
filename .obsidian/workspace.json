@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C, C++/C언어 문법/1. 연산자와 함수.md",
-                "mode": "preview",
-                "source": false
+                "file": "C, C++/C언어 문법/5. 동적 할당.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "1. 연산자와 함수"
+              "title": "5. 동적 할당"
             }
           },
           {
@@ -188,6 +188,7 @@
   },
   "active": "69d0c20017936e39",
   "lastOpenFiles": [
+    "C, C++/C언어 문법/1. 연산자와 함수.md",
     "C, C++/C언어 문법/2. 전처리 명령.md",
     "기타/템플릿/C code base.md",
     "중간고사 대비/인터넷프로그램/무제.canvas",
@@ -225,7 +226,6 @@
     "기타/미디어 파일/Pasted image 20250419161210.png",
     "C, C++/C언어 활용/2. 알고리즘.md",
     "C, C++/C언어 문법/3. 기본 입출력.md",
-    "C, C++/C언어 문법/1. 연산자와 함수.md",
     "컴퓨터 그래픽/포스터디자인 발표 대본.md",
     "C언어 스터디.md",
     "기타/미디어 파일/Pasted image 20250414220341.png",
