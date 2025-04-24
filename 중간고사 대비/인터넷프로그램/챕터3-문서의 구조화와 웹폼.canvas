@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"65c9cf907fbe5051","type":"text","text":"# \\<nav>\n- 목차","x":-180,"y":380,"width":500,"height":120},
+		{"id":"e0c1e93448c213e9","type":"text","text":"# \\<section>\n- 같은 맥락의 내용들을 담는 구조화 태그 ","x":-180,"y":500,"width":500,"height":120},
+		{"id":"05059571593a4142","x":-180,"y":-20,"width":500,"height":220,"type":"text","text":"# 문서의 구조화\n- 문서는 장, 절, 그림, 소제목 등 일반적인 구조에 따라 작성됨. 기존의 HTML은 p나 div로 구조를 만들어야 했지만 시멘틱 태그의 도입으로 명확하게 문서를 구조화 할 수 있어 검색 효율 및 사이트의 가치가 향상"},
+		{"id":"7b3625345c92d834","type":"text","text":"# \\<header>\n- 제목 및 서론","x":-180,"y":260,"width":500,"height":120},
+		{"id":"e2c64d6005aca70a","x":-60,"y":620,"width":440,"height":120,"type":"text","text":"# \\<article>\n- 같은 맥락 안에서 독립적인 내용을 담는 구조화 태그"},
+		{"id":"f459c418f9a56502","x":-180,"y":740,"width":500,"height":120,"type":"text","text":"# \\<footer>\n가장 하단 작성자 정보나 크레딧을 기입하는 꼬리말 태그"},
+		{"id":"48b5386e2dc23afd","type":"text","text":"# 웹 폼\n- 사용자 입력을 받아 서버로 전달하는데 원래 목적이 있으며, 현재는 많은 웹 애플리케이션들의 인터페이스에 사용\n- 텍스트 입력 창, 버튼, 체크박스, 라디오버튼, 콤보박스 등","x":500,"y":-20,"width":500,"height":220},
+		{"id":"61bc5056c02f97f3","type":"text","text":"# \\<form>\n- 하나의 폼을 정의하는 태그\n- action 속성엔 전송할 서버, method 속성엔 전송 방식","x":500,"y":260,"width":500,"height":120},
+		{"id":"d5afa3fcc55a7b03","type":"text","text":"# \\<button type=\"\">\n- 버튼을 정의하는 태그\n- button | submit | reset","x":680,"y":800,"width":500,"height":160},
+		{"id":"f3fdb195d1e4bdc4","type":"text","text":"# \\<select> & \\<datalist>\n- 콤보박스를 만드는 태그. \n- select: 자식으로 option 태그\n- datalist: 자식으로 옵션 태그를 넣고 그 id를 input태그에 list 속성으로 추가 ","x":680,"y":960,"width":500,"height":200},
+		{"id":"257809d553c9e763","type":"text","text":"# \\<input type=\"\">\n- 여러 종류의 입력을 처리할 수 있는 태그\n- 문자열: text | password\n- 버튼: button | submit | reset | image\n- 선택: checkbox | radio\n- 시간: month | week | date | time | date-local\n- 기타: number | range | color | email | url | tel | search","x":680,"y":540,"width":500,"height":260},
+		{"id":"93325e5e4c4e88f1","type":"text","text":"# \\<label>\n- id로 연결된 입력 폼 태그의 제목\n- label을 클릭하면 입력 폼 태그를 선택하게 됨","x":680,"y":380,"width":500,"height":160}
+	],
+	"edges":[]
+}
