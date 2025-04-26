@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"3873d3557820640e","type":"group","x":-180,"y":440,"width":680,"height":340,"label":"자동차"},
+		{"id":"7bc8a4963bda8946","type":"text","text":"# 자동차","x":-280,"y":-120,"width":480,"height":460},
+		{"id":"c3e4ba2d5d4e08bc","type":"text","text":"# 엔진\n동력 생산","x":20,"y":460,"width":280,"height":100},
+		{"id":"7476991dc5ca9b7c","type":"text","text":"# 바퀴\n회전 운동","x":-160,"y":640,"width":220,"height":120},
+		{"id":"03db2593e0f98fe6","type":"text","text":"# 차체\n수송","x":260,"y":640,"width":220,"height":120}
+	],
+	"edges":[
+		{"id":"691b79be2a5d1cb1","fromNode":"c3e4ba2d5d4e08bc","fromSide":"left","toNode":"7476991dc5ca9b7c","toSide":"top","label":"동력 전달"},
+		{"id":"f3cc17ec4184852d","fromNode":"7476991dc5ca9b7c","fromSide":"right","toNode":"03db2593e0f98fe6","toSide":"left","label":"운동"},
+		{"id":"e97933f5aa20a5c6","fromNode":"03db2593e0f98fe6","fromSide":"top","toNode":"c3e4ba2d5d4e08bc","toSide":"right","label":"연료 공급"}
+	]
+}
