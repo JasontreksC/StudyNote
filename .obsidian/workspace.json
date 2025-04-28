@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "431567ad5d60c7af",
+        "id": "f2066d47b83c3925",
         "type": "tabs",
         "children": [
           {
-            "id": "69d0c20017936e39",
+            "id": "6e05273304578bcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,28 +20,28 @@
               "icon": "lucide-file",
               "title": "5. 예약 상수"
             },
-            "group": "caa8ee2ab71204bb"
+            "group": "4cc5d2ac96db274c"
           }
         ]
       },
       {
-        "id": "f2066d47b83c3925",
+        "id": "c6aae8699abd2ee5",
         "type": "tabs",
         "children": [
           {
-            "id": "6e05273304578bcd",
+            "id": "aa7b1f71f629a8af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "C, C++/3. C++ 초급/5. 예약 상수.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "5. 예약 상수"
             },
-            "group": "caa8ee2ab71204bb"
+            "group": "4cc5d2ac96db274c"
           }
         ]
       }
@@ -191,14 +191,18 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "69d0c20017936e39",
+  "active": "6e05273304578bcd",
   "lastOpenFiles": [
     "C, C++/3. C++ 초급/4. 문자열.md",
     "C, C++/3. C++ 초급/5. 예약 상수.md",
+    "C, C++/4. C++ 중급/3. 동적 할당.md",
+    "C, C++/4. C++ 중급/4. STL.md",
+    "C, C++/4. C++ 중급/1. 클래스.md",
+    "C, C++/C++ 정리 계획.md",
+    "C, C++/3. C++ 초급/1. C언어와의 차이.md",
     "C, C++/3. C++ 초급/2. 콘솔 입출력.md",
     "C, C++/3. C++ 초급/3. 네임스페이스.md",
     "기타/미디어 파일/Pasted image 20250427164243.png",
-    "C, C++/3. C++ 초급/1. C언어와의 차이.md",
     "C, C++/1. 기초 지식/2. 자료형과 변수.md",
     "파이썬/1. 파이썬 기초.md",
     "기타/템플릿/하늘색 강조.md",
@@ -207,12 +211,9 @@
     "무제.canvas",
     "C, C++/4. C++ 중급/6. 스마트 포인터.md",
     "C, C++/4. C++ 중급/5. 파일 입출력.md",
-    "C, C++/4. C++ 중급/3. 동적 할당.md",
-    "C, C++/4. C++ 중급/1. 클래스.md",
     "C, C++/4. C++ 중급/2. 템플릿.md",
     "기타/미디어 파일/Pasted image 20250426195255.png",
     "Pasted image 20250426195136.png",
-    "C, C++/C++ 정리 계획.md",
     "C, C++/6. C++ 실무/6. 윈도우 API.md",
     "C, C++/2. C언어 문법/1. 연산자와 함수.md",
     "C, C++/6. C++ 실무/5. 매니저.md",
@@ -224,7 +225,6 @@
     "C, C++/5. C++ 고급/6. 이벤트 처리.md",
     "C, C++/5. C++ 고급/5. 람다와 함수 객체.md",
     "C, C++/5. C++ 고급/4. 타입 캐스팅.md",
-    "C, C++/5. C++ 고급/3. 오버로딩.md",
     "C, C++/6. C++ 실무",
     "C, C++/5. C++ 고급",
     "C, C++/4. C++ 중급",
