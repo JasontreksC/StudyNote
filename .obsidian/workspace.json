@@ -13,12 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C, C++/3. C++ 초급/6. 자료 구조.md",
+                "file": "C, C++/4. C++ 중급/1. 클래스.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "6. 자료 구조"
+              "title": "1. 클래스"
+            }
+          },
+          {
+            "id": "af7fcc5817acbba3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "무제.canvas",
+                "viewState": {
+                  "x": 2930.181885931238,
+                  "y": 8118.945069223663,
+                  "zoom": -0.336713538864058
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "무제"
             }
           }
         ]
@@ -171,31 +188,34 @@
   },
   "active": "0303694411642ecc",
   "lastOpenFiles": [
+    "C, C++/6. C++ 고급/3. 오버로딩.md",
+    "C, C++/4. C++ 중급/1. 클래스.md",
+    "Pasted image 20250506213023.png",
+    "Pasted image 20250506212953.png",
+    "Pasted image 20250506212243.png",
+    "C, C++/4. C++ 중급/2. 템플릿.md",
+    "C, C++/4. C++ 중급/4. STL.md",
+    "C, C++/3. C++ 초급/1. C언어와의 차이.md",
+    "C, C++/4. C++ 중급/3. 동적 메모리 관리.md",
+    "Pasted image 20250506193652.png",
+    "Pasted image 20250506193638.png",
+    "Pasted image 20250506193626.png",
+    "Pasted image 20250506190015.png",
+    "무제.canvas",
+    "Pasted image 20250506175342.png",
+    "Pasted image 20250506134523.png",
+    "Pasted image 20250506133538.png",
+    "C, C++/3. C++ 초급/6. 자료 구조.md",
+    "C, C++/3. C++ 초급/5. 예약 상수.md",
     "C, C++/5. C++  실습/1. 알고리즘.md",
     "conclusion.css.md",
-    "C, C++/3. C++ 초급/6. 자료 구조.md",
     "C, C++/2. C언어 문법/1. 연산자와 함수.md",
     "기타/템플릿/커스텀콜아웃-결론.md",
     "C, C++/C++ 정리 계획.md",
-    "C, C++/3. C++ 초급/5. 예약 상수.md",
     "C, C++/3. C++ 초급/2. 콘솔 입출력.md",
-    "C, C++/3. C++ 초급/1. C언어와의 차이.md",
-    "무제.canvas",
-    "Pasted image 20250501155627.png",
-    "Pasted image 20250501144813.png",
-    "Pasted image 20250501144230.png",
-    "Pasted image 20250501133615.png",
-    "Pasted image 20250501133512.png",
-    "Pasted image 20250501132108.png",
-    "Pasted image 20250501131525.png",
-    "Pasted image 20250501131505.png",
-    "Pasted image 20250430225251.png",
-    "Pasted image 20250430225005.png",
     "C, C++/2. C언어 문법/5. 동적 할당.md",
     "C, C++/7. C++ 실무/6. 윈도우 API.md",
     "C, C++/7. C++ 실무/2. premake.md",
-    "C, C++/4. C++ 중급/3. 동적 메모리 관리.md",
-    "C, C++/4. C++ 중급/4. STL.md",
     "C, C++/4. C++ 중급/5. 파일 입출력.md",
     "C, C++/5. C++  실습/4. 정렬 알고리즘 구현.md",
     "C, C++/5. C++  실습/5. 이진탐색 트리 구현.md",
@@ -205,9 +225,6 @@
     "파이썬/1. 파이썬 기초.md",
     "C, C++/7. C++ 실무/3. 라이브러리 임포트.md",
     "C, C++/7. C++ 실무/4. 라이브러리 빌드.md",
-    "C, C++/7. C++ 실무/5. 매니저.md",
-    "중간고사 대비/C언어 중간고사 대비.md",
-    "C, C++/4. C++ 중급/1. 클래스.md",
     "C, C++/5. C++  실습",
     "C, C++/7. C++ 실무",
     "C, C++/6. C++ 고급",
