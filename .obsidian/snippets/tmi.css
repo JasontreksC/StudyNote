@@ -1,0 +1,4 @@
+.callout[data-callout="tmi"] { 
+	--callout-color: 202, 245, 81;
+	--callout-icon: lucide-circle-plus;
+}

@@ -1,7 +1,11 @@
 {
   "theme": "system",
   "enabledCssSnippets": [
-    "conclusion"
+    "conclusion",
+    "tmi",
+    "code",
+    "run"
   ],
-  "accentColor": ""
+  "accentColor": "",
+  "textFontFamily": ""
 }

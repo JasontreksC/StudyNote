@@ -8,16 +8,15 @@
 - [x] <span style="font-size:18px; font-weight:bold;">자료 구조</span>
 
 # <span style="color:yellow">중급
-- [ ] <span style="font-size:18px; font-weight:bold;">클래스</span>
+- [x] <span style="font-size:18px; font-weight:bold;">클래스</span>
 - [ ] <span style="font-size:18px; font-weight:bold;">템플릿</span>
 - [ ] <span style="font-size:18px; font-weight:bold;">동적 메모리 관리</span>
 - [ ] <span style="font-size:18px; font-weight:bold;">STL</span>
 - [ ] <span style="font-size:18px; font-weight:bold;">파일 입출력</span>
 
 # <span style="color:orange">실습
-- [ ] <span style="font-size:18px; font-weight:bold;">자료 구조</span>
-- [ ] <span style="font-size:18px; font-weight:bold;">알고리즘</span>
-- [ ] <span style="font-size:18px; font-weight:bold;">이진 탐색 트리</span>
+- [ ] <span style="font-size:18px; font-weight:bold;">자료 구조와 알고리즘</span>
+</span>
 - [ ] <span style="font-size:18px; font-weight:bold;">동적 배열과 리스트 구현</span>
 - [ ] <span style="font-size:18px; font-weight:bold;">스택과 큐 구현</span>
 - [ ] <span style="font-size:18px; font-weight:bold;">정렬 알고리즘 구현</span>

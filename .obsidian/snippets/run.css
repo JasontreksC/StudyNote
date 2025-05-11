@@ -1,0 +1,4 @@
+.callout[data-callout="run"] { 
+	--callout-color: 0, 255, 64;
+	--callout-icon: lucide-play;
+}

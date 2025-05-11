@@ -1,0 +1,4 @@
+.callout[data-callout="code"] { 
+	--callout-color: 252, 219, 3;
+	--callout-icon: lucide-code-xml;
+}
