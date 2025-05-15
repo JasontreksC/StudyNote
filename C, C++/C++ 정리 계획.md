@@ -9,10 +9,10 @@
 
 # <span style="color:yellow">중급
 - [x] <span style="font-size:18px; font-weight:bold;">클래스</span>
-- [ ] <span style="font-size:18px; font-weight:bold;">템플릿</span>
-- [ ] <span style="font-size:18px; font-weight:bold;">동적 메모리 관리</span>
-- [ ] <span style="font-size:18px; font-weight:bold;">STL</span>
-- [ ] <span style="font-size:18px; font-weight:bold;">파일 입출력</span>
+- [x] <span style="font-size:18px; font-weight:bold;">템플릿</span>
+- [x] <span style="font-size:18px; font-weight:bold;">동적 메모리 관리</span>
+- [x] <span style="font-size:18px; font-weight:bold;">STL</span>
+- [x] <span style="font-size:18px; font-weight:bold;">파일 입출력</span>
 
 # <span style="color:orange">실습
 - [ ] <span style="font-size:18px; font-weight:bold;">자료 구조와 알고리즘</span>
